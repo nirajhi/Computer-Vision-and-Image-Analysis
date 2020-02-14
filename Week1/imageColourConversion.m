@@ -6,7 +6,7 @@ close all;
 image = imread('test.jpg','jpg');
 
 % Resize image to a quarter of its original size
-resizedImage = imresize(image, 1);
+resizedImage = imresize(image, 0.25);
 figure(2),imshow(resizedImage);
 title("Original Image");
 
